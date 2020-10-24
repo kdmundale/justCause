@@ -42,7 +42,7 @@ body {
   width: 80%;
   padding-top:60px;
   padding-bottom: 60px;
-  margin: 60px;
+  margin: 20px;
   font-variant: small-caps;
   font-size: calc(40px + 15 * ((100vw - 300px)/1300));
   background-color: rgb(196 17 4);
@@ -60,5 +60,13 @@ body {
   background-color: rgb(8 3 54);
   background: radial-gradient(circle at 90%, #232323, #14213d 40%, #0c284d 50%, #232323 95%);
   box-shadow: -5px 10px 20px black;
+}
 
+footer {
+  padding: 20px;
+  margin: 50px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #3e59f7;
 }

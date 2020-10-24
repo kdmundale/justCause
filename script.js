@@ -3,7 +3,7 @@ function getJoke(){
   var url = "https://icanhazdadjoke.com/";
 
   xmlhttp.open("GET", url, true);
-  //xmlhttp.setRequestHeader(User-Agent:, "kdmundale192@stevenscollege.edu");
+  xmlhttp.setRequestHeader('User-Agent', "https://kdmundale.github.io/justCause/");
   xmlhttp.setRequestHeader("Accept", "application/json");
   xmlhttp.send();
   xmlhttp.onreadystatechange = function(){
