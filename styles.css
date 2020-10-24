@@ -40,7 +40,7 @@ body {
   padding:40px;
   margin: 40px;
   font-variant: small-caps;
-  font-size: calc(50px + 15 * ((100vw - 300px)/1300));
+  font-size: calc(30px + 15 * ((100vw - 300px)/1300));
   background-color: rgb(196 17 4);
   color: white;
 }
