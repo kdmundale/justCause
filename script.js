@@ -11,6 +11,7 @@ function getJoke(){
       var result= xmlhttp.responseText;
       var jsResult = JSON.parse(result);
       var dadJoke = jsResult.joke;
+      document.getElementById('jokeDisplay').style.display = "inline-block";
       document.getElementById('jokeDisplay').innerHTML = dadJoke;
     };
   };

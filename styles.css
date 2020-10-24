@@ -25,6 +25,7 @@ body {
  h1 {
    text-align: center;
    font-size: calc(45px + 10 * ((100vw - 300px)/1300));
+   font-variant: small-caps;
 
  }
 
@@ -45,13 +46,19 @@ body {
   font-variant: small-caps;
   font-size: calc(40px + 15 * ((100vw - 300px)/1300));
   background-color: rgb(196 17 4);
+  background: linear-gradient(#c41104, #821109);
+  box-shadow: -5px 10px 20px black;
   color: white;
 }
 
 #jokeDisplay {
+  display: none;
   font-size: calc(45px + 10 * ((100vw - 300px)/1300));
   text-align: center;
   margin: 30px;
-  padding-top: 30px;
+  padding: 50px;
+  background-color: rgb(8 3 54);
+  background: radial-gradient(circle at 90%, #232323, #14213d 40%, #0c284d 50%, #232323 95%);
+  box-shadow: -5px 10px 20px black;
 
 }
