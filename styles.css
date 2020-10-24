@@ -46,7 +46,11 @@ body {
 }
 
 #jokeDisplay {
+<<<<<<< HEAD
+  font-size: calc(40px + 15 * ((100vw - 300px)/1300));
+=======
   font-size: calc(50px + 15 * ((100vw - 300px)/1300));
+>>>>>>> a7c7ed37bc55bfba7eec2faf2ebb27cd095d6473
   text-align: center;
   margin: 30px;
   padding-top: 30px;
