@@ -44,7 +44,7 @@ body {
   padding-bottom: 60px;
   margin: 20px;
   font-variant: small-caps;
-  font-size: calc(40px + 15 * ((100vw - 300px)/1300));
+  font-size: calc(40px + 5 * ((100vw - 300px)/1300));
   background-color: rgb(196 17 4);
   background: linear-gradient(#c41104, #821109);
   box-shadow: -5px 10px 20px black;
@@ -55,7 +55,7 @@ body {
   display: none;
   font-size: calc(45px + 10 * ((100vw - 300px)/1300));
   text-align: center;
-  margin: 30px;
+  margin: 40px;
   padding: 50px;
   background-color: rgb(8 3 54);
   background: radial-gradient(circle at 90%, #232323, #14213d 40%, #0c284d 50%, #232323 95%);
@@ -64,7 +64,7 @@ body {
 
 footer {
   padding: 20px;
-  margin: 50px;
+  margin: 60px;
   display: flex;
   align-items: flex-end;
   text-align: center;
