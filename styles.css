@@ -44,7 +44,7 @@ body {
 }
 
 #jokeDisplay {
-  font-size: calc(50px + 15 * ((100vw - 300px)/1300));
+  font-size: calc(40px + 15 * ((100vw - 300px)/1300));
   text-align: center;
   margin: 30px;
   padding-top: 30px;
