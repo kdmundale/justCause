@@ -1,2 +1,2 @@
 # justCause
-dad joke generator (and other nonsense) 
+dad joke generator, built with js, built using xampp and icanhazdadjoke api
