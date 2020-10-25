@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  font-family: 'Kanit';
   background-color: rgb(35,35,35);
   background: radial-gradient(circle at 90%, #232323, #14213d 40%, #0c284d 50%, #232323 95%);
   display: flex;
@@ -39,12 +40,13 @@ body {
 
 #bigpush {
   border-radius: 50%;
-  width: 80%;
+  width: 60%;
   padding-top:60px;
   padding-bottom: 60px;
   margin: 20px;
   font-variant: small-caps;
-  font-size: calc(40px + 5 * ((100vw - 300px)/1300));
+  font-family: 'Krona One';
+  font-size: calc(30px + 5 * ((100vw - 300px)/1300));
   background-color: rgb(196 17 4);
   background: linear-gradient(#c41104, #821109);
   box-shadow: -5px 10px 20px black;

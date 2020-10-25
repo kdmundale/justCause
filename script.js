@@ -14,6 +14,7 @@ function getJoke(){
       document.getElementById('title').style.display = 'none';
       document.getElementById('jokeDisplay').style.display = "inline-block";
       document.getElementById('jokeDisplay').innerHTML = dadJoke;
+      document.getElementById('bigpush').innerHTML = 'HIT ME AGAIN';
     };
   };
 };
