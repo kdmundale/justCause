@@ -40,10 +40,10 @@ body {
 
 #bigpush {
   border-radius: 50%;
-  width: 60%;
+  width: 40%;
   padding-top:60px;
   padding-bottom: 60px;
-  margin: 20px;
+  margin: 5% auto;
   font-variant: small-caps;
   font-family: 'Krona One';
   font-size: calc(30px + 5 * ((100vw - 300px)/1300));
@@ -55,10 +55,10 @@ body {
 
 #jokeDisplay {
   display: none;
-  font-size: calc(45px + 10 * ((100vw - 300px)/1300));
+  font-size: calc(25px + 10 * ((100vw - 300px)/1300));
   text-align: center;
-  margin: 40px;
-  padding: 50px;
+  margin: 0 auto;
+  padding: 20px;
   background-color: rgb(8 3 54);
   background: radial-gradient(circle at 90%, #232323, #14213d 40%, #0c284d 50%, #232323 95%);
   box-shadow: -5px 10px 20px black;
